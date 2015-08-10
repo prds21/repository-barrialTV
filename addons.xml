@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="repository-barrialTV"
+       name="TVBarrial official Repo"
+       version="1.5.0"
+       provider-name="PRDS">
+	   <requires>
+	            <import addon="xbmc.python" version="2.7.1"/>
+				<import addon="script.module.requests" version="1.0.0"/>
+				<import addon="script.module.metahandler" optional="true"/>
+				<import addon="script.module.simplejson" optional="true"/>
+				<import addon="script.module.parsedom" optional="true"/>
+				<import addon="plugin.video.youtube" optional="true"/>
+	<extension point="xbmc.addon.repository" name="TVBarrial official Repo">
+	      <info compressed="false">https://raw.github.com/prds21/repository-barrialTV/master/addon.xml</info>
+	       <checksum>/https://raw.https://github.com/prds21/repository-barrialTV/master/addon.xml.md5</checksum>
+	        <datadir zip="true">https://raw.github.com/prds21/TVBARRIAL/master</datadir>
+	   </extension>
+	<extension point="xbmc.addon.metadata">
+	        <sumary>TVBarrial official Repo</sumary>
+	        <description lang="en">instala los addons de Barrial TV.</description>
+	        <disclaimer></disclaimer>
+	        <platform>all</platform>
+	   </extension>
+		</addon>
+</addons>
